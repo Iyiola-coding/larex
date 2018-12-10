@@ -1,5 +1,6 @@
-body, html {
+body, html {	
 	height: 100%;
+	background-color: #eee;
 }
 /*style navbar*/
 .topnav{
@@ -30,7 +31,7 @@ body, html {
 
 
 div.hero-image{
-	background-image: url("Hero Image.Jpg");
+	background-image: url("heroimage.Jpg");
 	height: 90%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -69,7 +70,7 @@ div.hero-text a button{
 }
 
 .column img {
-	
+	width: 98%;
 }
 .row{
 	text-align: center;
