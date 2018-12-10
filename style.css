@@ -1,6 +1,7 @@
 body, html {	
 	height: 100%;
 	background-color: #eee;
+	margin: 0;
 }
 /*style navbar*/
 .topnav{
@@ -30,7 +31,7 @@ body, html {
 /* style navbar end*/
 
 
-div.hero-image{
+div.heroimage{
 	background-image: url("heroimage.jpg");
 	height: 90%;
 	background-position: center;
@@ -144,4 +145,23 @@ p{
 	padding: 10px;
 	margin: 20px 0 0 0;
 
+}
+/*style form*/
+
+label {
+  padding: 20px;
+  border: 20px;
+  margin: 5px;
+}
+
+input {
+	padding: 5px;
+	border: 20px;
+	margin: 10px;
+}
+
+textarea{
+	padding: 10px;
+	height: 100%;
+	width: 30%;
 }
